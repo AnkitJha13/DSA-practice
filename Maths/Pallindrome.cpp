@@ -1,3 +1,4 @@
+//for pallindrome no and its reverse should be same 
 class Solution {
 public:
     bool isPalindrome(int x) {
