@@ -14,7 +14,7 @@ int gcd(int a, int b)
 int main()
 {
 
-    int a = 4, b = 8;
+    int a = 4, b = 8;  // output is 4
     cout << "The GCD of the two numbers is " << gcd(a, b);
 }
 
