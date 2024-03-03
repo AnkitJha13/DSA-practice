@@ -1,3 +1,6 @@
+// GCD - basically the largest no possible in the range which can divide both a & b
+
+
 #include <bits/stdc++.h>
 using namespace std;
 int gcd(int a, int b)
