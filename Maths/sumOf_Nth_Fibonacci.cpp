@@ -1,4 +1,4 @@
-int fibSum(long long int N)
+int fibSum(int N)
 {
     // code here
     int a = 0;
