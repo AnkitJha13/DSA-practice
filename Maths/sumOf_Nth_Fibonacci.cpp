@@ -14,3 +14,8 @@ int fibSum(int N)
     }
     return sum;
 }
+
+// for N = 3 (0 , 1 , 1 , 2 , 3 , 5 , 8)
+// output is 4
+// for N = 5 
+// output is 12
