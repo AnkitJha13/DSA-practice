@@ -8,3 +8,5 @@ int getSum(int num)
     }
     return sum;
 }
+
+// ex 1234 - output is 10 (1+2+3+4)
