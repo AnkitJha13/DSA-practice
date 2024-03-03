@@ -14,7 +14,8 @@ public:
         }
         for (int i = 0; i < n; i++)
         {
-            reverse(matrix[i].begin(), matrix[i].end());
+            reverse(matrix[i].begin(), matrix[i].end()); // for row reverse
+            // for col reverse - reverse(matrix.begin(),matrix.end)
         }
     }
 };
