@@ -18,3 +18,6 @@ int main()
          << b << " is " << lcm(a, b);
     return 0;
 }
+
+//lcm is 12   as gcd is 1  and (4*3)=12
+// so 12/1 = 12 is the LCM
