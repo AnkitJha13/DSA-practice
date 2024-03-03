@@ -1,22 +1,16 @@
-class Solution
-{
+class Solution {
 public:
-    bool isPowerOfTwo(int n)
-    {
-        int ans = 1;
+    bool isPowerOfTwo(int n) {
+        if (n == 0) return 0;
 
-        for (int i = 0; i <= 30; i++)  // i = 30 because of In C++, the maximum representable positive value for a 32-bit signed integer (INT_MAX) is 2^31 - 1.
-        {
-            if (ans == n)
-            {
-                return true;
+        while(n!=1){
+            if(n%2 != 0){
+                return 0;
             }
-            if (ans < INT_MAX / 2)  // to avoid integer overflow
-            {
-                ans = ans * 2;
-            }
+            n = n/2;
         }
-        return false;
+        return 1;
+
     }
 };
 
