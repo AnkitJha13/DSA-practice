@@ -5,7 +5,7 @@ public:
     {
         int ans = 1;
 
-        for (int i = 0; i <= 30; i++)  // i = 30 because of 2^31 - 1
+        for (int i = 0; i <= 30; i++)  // i = 30 because of In C++, the maximum representable positive value for a 32-bit signed integer (INT_MAX) is 2^31 - 1.
         {
             if (ans == n)
             {
