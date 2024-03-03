@@ -5,13 +5,13 @@ public:
     {
         int ans = 1;
 
-        for (int i = 0; i <= 30; i++)
+        for (int i = 0; i <= 30; i++)  // i = 30 because of 2^31 - 1
         {
             if (ans == n)
             {
                 return true;
             }
-            if (ans < INT_MAX / 2)
+            if (ans < INT_MAX / 2)  // to avoid integer overflow
             {
                 ans = ans * 2;
             }
